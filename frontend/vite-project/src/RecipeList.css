@@ -1,0 +1,65 @@
+.heart-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .heart-button:hover {
+    color: red;
+  }
+  
+  .heart-button {
+    color: red;
+  }
+  
+.likesDisplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipe-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.recipe-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.recipe-card:hover {
+    background-color: #e2e2e2;
+}
+
+.recipe-card h2 {
+    margin-top: 0;
+}
+
+.likesDisplay {
+    display: flex;
+    align-items: center;
+}
+
+.heart-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.heart-button .liked {
+    color: red;
+}
+
+
+.recipe-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
